@@ -1,0 +1,43 @@
+{
+    "name":"teamspeak",
+    "desc":"teamspeak voice manager",
+    "cmds": [
+        {
+        "name": "MoveChannel",
+        "usage": "move x to y in teamspeak",
+        "args": 2,
+        "example": [
+		"move bob to neon in teamspeak",
+		"move bob",
+		"move jim in teamspeak",
+		"move jim out",
+		"move bob out the channel"
+	],
+        "function": "movechannel"
+        },
+        {
+        "name": "BringHere",
+        "usage": "bring x to me in teamspeak",
+        "args": 1,
+        "example": [
+		"bring bob",
+		"bring jim to me",
+		"bring bob to me in teamspeak",
+		"bring jim to me in teamspeak"
+	],
+        "function": "bringhere"
+        },
+        {
+        "name": "kick",
+        "usage": "kick x from teamspeak",
+        "args": 1,
+        "example": [
+		"kick bob",
+		"kick jim from teamspeak",
+		"kick bob from channel",
+		"kick jim from the channel"
+	],
+        "function": "kickClient"
+        }
+    ]
+}

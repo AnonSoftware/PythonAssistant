@@ -1,0 +1,16 @@
+{
+    "name":"close",
+    "desc":"close program by  name",
+    "cmds": [
+        {
+        "name": "close",
+        "usage": "close x",
+        "args": 2,
+        "example":[
+		"close chrome",
+		"close steam"
+	],
+        "function": "runScript"
+        }
+    ]
+}

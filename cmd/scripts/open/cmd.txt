@@ -1,0 +1,16 @@
+{
+    "name":"open",
+    "desc":"Open program or website",
+    "cmds": [
+        {
+        "name": "open",
+        "usage": "open x",
+        "args": 2,
+        "example":[
+		"open chrome",
+		"open steam"
+	],
+        "function": "runScript"
+        }
+    ]
+}
